@@ -1,0 +1,45 @@
+/*Custom CSS*/
+
+/*Main wrapper*/
+#wrap{
+	min-height:730px;
+}
+/*Upload Medicins- Chosen Box*/
+.chosen-container-multi .chosen-choices{
+	min-height:32px;
+}
+.approve-btn{ 
+	margin-top:3px;
+    margin-right: 10px;
+}
+
+.ui-sortable .chosen-container{ margin:10px 0px;}
+.chosen-choices li.search-field input{ padding:10px 0px !important;}
+.upload-form .save_medicines{ margin-top:14px;}
+.upload-form .chosen-container{width:100% !important;}
+.dataTables_wrapper div.dataTables_length {text-align:left !important;}
+.dataTables_wrapper .dataTables_length{float:left; margin:10px 0px;}
+.dataTables_wrapper  div.dataTables_filter{ margin-top:10px; float:right;}
+@media (max-width: 767px)
+{
+	.dataTables_wrapper  div.dataTables_filter{ float:left; text-align:left !important;}
+	.dataTables_wrapper  div.dataTables_filter input.input-sm{width:auto;}
+	
+}
+@media (min-width:495px) and (max-width:767px)
+{
+	.dataTables_wrapper  div.dataTables_filter{ padding:0px 0px 0px 10px;}
+}
+
+/*Common Message Div*/
+.info-msg {
+	clear: both;
+	display: block;
+	padding: 10px;
+	text-align: center;
+	margin-bottom:1em;
+}
+
+.text-center{
+min-height:800px;
+}
